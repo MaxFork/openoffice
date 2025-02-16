@@ -1,3 +1,4 @@
+
 /**************************************************************
  * 
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -5302,7 +5303,7 @@ sal_Bool StatementControl::Execute()
 							case M_Click :
 								{
                                     FIND_ITEM;
-									if ( bItemFound )	// FIND_ITEM successful
+									if ( bItemFound )	// FIND_ITEM successfull
 									{
 										Rectangle aRect = pTB->GetItemRect(pTB->GetItemId(nItemPos));
                                         if ( aRect.IsEmpty() )
